@@ -1,16 +1,14 @@
 {
-  "name": "aframe-hello-world-boilerplate",
-  "description": "Boilerplate with A-Frame's 'Hello, World!' of WebVR.",
-  "version": "0.3.0",
-  "license": "MIT",
+  "name": "aframe-webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
+    "build": "webpack",
+    "dev": "webpack --mode=development --watch",
     "start": "budo --live --verbose --port 3000 --open",
     "deploy": "ghpages",
     "ghpages": "ghpages"
-  },
-  "devDependencies": {
-    "budo": "^7.0.0",
-    "ghpages": "0.0.3"
   },
   "keywords": [
     "aframe",
@@ -19,5 +17,16 @@
     "aframe-scene",
     "webvr",
     "vr"
-  ]
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "budo": "^7.0.0",
+    "ghpages": "0.0.3",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "aframe-extras": "^6.1.1"
+  }
 }
