@@ -6,4 +6,4 @@ To play the demo experience, open up https://raw.githubusercontent.com/rcofie/bl
 
 The experience plays out smoothly for every scan of the marker preset. The only error is that when you take your phone off the marker image, the AR experience finishes, so you can't move your camera with the walking model. I tested it on my iPhone and it works on both Chrome and Safari (iOS 11+). I do not own an Android phone to test it on but I used the AR.js library which is compatible with both operating systems.
 
-![IMG_1904](https://user-images.githubusercontent.com/56599594/224376009-c01b7767-8c3c-4055-99cb-2e760c72d0e3.PNG)
+![IMG_1904](https://user-images.githubusercontent.com/56599594/224380892-f21ee4de-a075-44dd-8394-cffcd0d9b8e3.PNG)
